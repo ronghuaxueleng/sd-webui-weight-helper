@@ -3,54 +3,54 @@
 
 # Weight Helper Extension
 
-## Overview
+## 概述
 
-**Weight Helper** is an extension that allows you to visually adjust the weights of Lora and Lyco with mouse operations.<br>
-You can adjust the magnification of each weight block through the context menu.<br>
-Note: The LoRA Block Weight extension is required to use this extension.
+**Weight Helper** 是一个扩展，允许您通过鼠标操作直观地调整 Lora 和 Lyco 的权重。
+您可以通过上下文菜单调整每个重量块的放大倍率。
+注意：使用此扩展需要 LoRA 块权重扩展。
 
-## Installation
+## 安装
 
-1. Open the [Extensions] tab in Stable Diffusion Web UI.
-2. Select [Install from URL].
-3. Enter the following URL and execute the installation.
+1. 打开Stable Diffusion Web UI中的[扩展]选项卡。
+2. 选择[从URL安装]。
+3. 输入以下 URL 并执行安装。
 ```
-https://github.com/nihedon/sd-webui-weight-helper.git
+https://github.com/ronghuaxueleng/sd-webui-weight-helper.git
 ```
 
-## Usage
+## 用法
 
-1. Right-click on a Lora or Lyco tag to open the context menu.
+1. 右键单击 Lora 或 Lyco 标签以打开上下文菜单。
    - `<lora:lora_name:1.0>`
    - `<lyco:lyco_name:1.0>`
-2. Move the weight slider to adjust the magnification of each weight block.
+2. 移动权重滑块以调整每个砝码块的放大倍率。
 
-## Features
+## 特征
 
-- Easy to set weight values with mouse operations.
-- Use of preset values from Lora Block Weight is possible.
+- 通过鼠标操作轻松设置权重值。
+- 可以使用 `Lora Block Weight` 中的预设值.
 
-## Configuration Options
+## 配置选项
 
-- Scale adjustment in the context menu.
-- Use of the `execCommand` function for text replacement (Note: execCommand is a deprecated function, but it allows for "undo" and "redo").
-- Display of UNet, Dyn, Start, and Stop sliders.
-- Setting of minimum, maximum, and step values for each weight slider.
-- Detailed settings for LBW's Lora and Lyco blocks.
+- 上下文菜单中的比例调整。
+- 使用`execCommand` 使用函数进行文本替换（注意：`execCommand` 是一个已弃用的函数，但它允许“撤消”和“重做”）。
+- 显示 `UNet`、`Dyn`、`Start` 和 `Stop` 滑块。
+- 设置每个权重滑块的最小值、最大值和步长值。
+- 详细设置`LBW` 的 `Lora` 和 `Lyco` 块的权重。
 
-## Guaranteed Operating Environment
+## 运行环境
 
 - Stable Diffusion AUTOMATIC1111
 - Windows
 - Google Chrome
 
-## Acknowledgments
+## 鸣谢
 
-We would like to express our deep gratitude to **hako-mikan**, the author of **LoRA Block Weight**, for creating this extension.
+我们要对 `LoRA Block Weight` 的作者 `hako-mikan` 表示深深的感谢，感谢他创建了这个扩展。
 ```
 https://github.com/hako-mikan/sd-webui-lora-block-weight
 ```
 
 ## License
 
-This project is published under the [MIT License](LICENSE).
+该项目在 MIT 许可证下发布。
